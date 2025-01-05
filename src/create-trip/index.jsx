@@ -20,7 +20,7 @@ import { stringify } from 'postcss';
 import { doc, setDoc } from 'firebase/firestore';
 import { db } from '@/service /fireBaseConfig';
 import { AiOutlineLoading3Quarters } from "react-icons/ai";
-import { chatSession } from '@/service/AIModel';
+import { chatSession } from '@/service /AIModel';
 import { useNavigate } from 'react-router-dom';
 
 function CreateTrip() {
